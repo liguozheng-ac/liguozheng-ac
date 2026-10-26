@@ -1,10 +1,10 @@
 # Hi, I'm Guozheng Li
 
+[![English — current language](https://raw.githubusercontent.com/liguozheng-ac/liguozheng-ac/main/assets/language-en-active.svg)](https://github.com/liguozheng-ac) [![切换到简体中文](https://raw.githubusercontent.com/liguozheng-ac/liguozheng-ac/main/assets/language-zh.svg)](https://github.com/liguozheng-ac/liguozheng-ac/blob/main/README.zh-CN.md)
+
 **Chinese–Japanese Localization QA · Japanese Speech Data · Evaluation Tooling**
 
 I build tools that make language and speech quality easier to inspect, evaluate, and review. My projects combine deterministic checks, model-assisted analysis, and explicit evidence for human decisions.
-
-专注中日游戏本地化 QA、日语语音数据质量与可解释的评估工具。
 
 ### Selected projects
 
@@ -37,5 +37,3 @@ Snapshot captured **2026-10-26 13:52** (Asia/Shanghai).
 
 [Snapshot details](https://github.com/liguozheng-ac/liguozheng-ac/blob/main/snapshots/2026/10/2026-10-26.json) · [Snapshot archive](https://github.com/liguozheng-ac/liguozheng-ac/tree/main/snapshots)
 <!-- PROJECT-ACTIVITY:END -->
-
-*Automatic updates are paused. The table above shows an archived snapshot of public repository metadata. Further updates are made manually on request; snapshots do not represent daily manual coding. [Update notes](https://github.com/liguozheng-ac/liguozheng-ac/blob/main/docs/automation.md).*

@@ -23,38 +23,60 @@ const selectedProjects = [
   ['j-speechops', 'J-SpeechOps'],
   ['japanese-speech-xray', 'Japanese Speech X-Ray'],
 ];
-const rows = selectedProjects.map(([name, label]) => {
-  const repo = snapshot.repositories.find(repo => repo.repository === `${owner}/${name}`);
-  if (!repo) return `| [${label}](https://github.com/${owner}/${name}) | Not in this snapshot | — |`;
-  const commit = repo.latest_commit;
-  if (!commit) return `| [${label}](https://github.com/${owner}/${name}) | No commit recorded | — |`;
-  if (!/^[0-9a-f]{40}$/.test(commit.sha)) throw new Error('Invalid commit SHA');
-  const committedAt = new Date(commit.committed_at);
-  if (!Number.isFinite(committedAt.getTime())) throw new Error('Invalid commit timestamp');
-  return `| [${label}](https://github.com/${owner}/${name}) | ${dayOf(committedAt)} | [\`${commit.sha.slice(0, 7)}\`](https://github.com/${owner}/${name}/commit/${commit.sha}) |`;
-});
-const content = [
-  `Snapshot captured **${dayOf(capturedAt)} ${capturedParts.hour}:${capturedParts.minute}** (Asia/Shanghai).`,
-  '',
-  '| Project | Latest commit date | Commit |',
-  '| --- | --- | --- |',
-  ...rows,
-  '',
-  `[Snapshot details](https://github.com/${owner}/${owner}/blob/main/${snapshotPath}) · [Snapshot archive](https://github.com/${owner}/${owner}/tree/main/snapshots)`,
-].join('\n');
-const readmePath = 'README.md';
-const readme = await readFile(readmePath, 'utf8');
+function activityContent(copy) {
+  const rows = selectedProjects.map(([name, label]) => {
+    const repo = snapshot.repositories.find(repo => repo.repository === `${owner}/${name}`);
+    if (!repo) return `| [${label}](https://github.com/${owner}/${name}) | ${copy.missing} | — |`;
+    const commit = repo.latest_commit;
+    if (!commit) return `| [${label}](https://github.com/${owner}/${name}) | ${copy.empty} | — |`;
+    if (!/^[0-9a-f]{40}$/.test(commit.sha)) throw new Error('Invalid commit SHA');
+    const committedAt = new Date(commit.committed_at);
+    if (!Number.isFinite(committedAt.getTime())) throw new Error('Invalid commit timestamp');
+    return `| [${label}](https://github.com/${owner}/${name}) | ${dayOf(committedAt)} | [\`${commit.sha.slice(0, 7)}\`](https://github.com/${owner}/${name}/commit/${commit.sha}) |`;
+  });
+  return [
+    `${copy.captured} **${dayOf(capturedAt)} ${capturedParts.hour}:${capturedParts.minute}** (Asia/Shanghai).`,
+    '',
+    copy.tableHeader,
+    '| --- | --- | --- |',
+    ...rows,
+    '',
+    `[${copy.details}](https://github.com/${owner}/${owner}/blob/main/${snapshotPath}) · [${copy.archive}](https://github.com/${owner}/${owner}/tree/main/snapshots)`,
+  ].join('\n');
+}
+const languages = [
+  {
+    path: 'README.md',
+    missing: 'Not in this snapshot', empty: 'No commit recorded', captured: 'Snapshot captured',
+    tableHeader: '| Project | Latest commit date | Commit |',
+    details: 'Snapshot details', archive: 'Snapshot archive',
+  },
+  {
+    path: 'README.zh-CN.md',
+    missing: '本次快照未收录', empty: '暂无提交记录', captured: '快照采集时间',
+    tableHeader: '| 项目 | 最近提交日期 | 提交记录 |',
+    details: '快照详情', archive: '快照归档',
+  },
+];
 const start = '<!-- PROJECT-ACTIVITY:START -->';
 const end = '<!-- PROJECT-ACTIVITY:END -->';
-if (readme.split(start).length !== 2 || readme.split(end).length !== 2 || readme.indexOf(start) > readme.indexOf(end)) {
-  throw new Error('README must contain exactly one ordered pair of activity markers');
+const updates = [];
+for (const language of languages) {
+  const readmePath = language.path;
+  const readme = await readFile(readmePath, 'utf8');
+  if (readme.split(start).length !== 2 || readme.split(end).length !== 2 || readme.indexOf(start) > readme.indexOf(end)) {
+    throw new Error(`${readmePath} must contain exactly one ordered pair of activity markers`);
+  }
+  const updated = readme.slice(0, readme.indexOf(start) + start.length)
+    + '\n' + activityContent(language) + '\n'
+    + readme.slice(readme.indexOf(end));
+  updates.push({ path: readmePath, content: updated, changed: updated !== readme });
 }
-const updated = readme.slice(0, readme.indexOf(start) + start.length)
-  + '\n' + content + '\n'
-  + readme.slice(readme.indexOf(end));
-if (updated !== readme) {
-  await writeFile(readmePath, updated);
-  console.log(`Updated README project activity from ${snapshotPath}`);
-} else {
-  console.log('README project activity is already current.');
+for (const update of updates) {
+  if (update.changed) {
+    await writeFile(update.path, update.content);
+    console.log(`Updated ${update.path} project activity from ${snapshotPath}`);
+  } else {
+    console.log(`${update.path} project activity is already current.`);
+  }
 }

@@ -36,7 +36,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git add README.md snapshots/
+          git add README.md README.zh-CN.md snapshots/
           if git diff --cached --quiet; then
             echo "Today's profile and snapshot are already current."
             exit 0
