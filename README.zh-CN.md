@@ -27,7 +27,7 @@
 ### 项目动态
 
 <!-- PROJECT-ACTIVITY:START -->
-快照采集时间 **2026-10-26 13:52** (Asia/Shanghai).
+快照采集时间 **2026-10-27 13:42** (Asia/Shanghai).
 
 | 项目 | 最近提交日期 | 提交记录 |
 | --- | --- | --- |
@@ -35,5 +35,5 @@
 | [J-SpeechOps](https://github.com/liguozheng-ac/j-speechops) | 2026-10-16 | [`b9dc139`](https://github.com/liguozheng-ac/j-speechops/commit/b9dc139d535bd1232a05a6fe7b9e1f6efc4dcbd0) |
 | [Japanese Speech X-Ray](https://github.com/liguozheng-ac/japanese-speech-xray) | 2026-10-16 | [`0e41af0`](https://github.com/liguozheng-ac/japanese-speech-xray/commit/0e41af07e50d6abe3c357ac3e843b341a7289813) |
 
-[快照详情](https://github.com/liguozheng-ac/liguozheng-ac/blob/main/snapshots/2026/10/2026-10-26.json) · [快照归档](https://github.com/liguozheng-ac/liguozheng-ac/tree/main/snapshots)
+[快照详情](https://github.com/liguozheng-ac/liguozheng-ac/blob/main/snapshots/2026/10/2026-10-27.json) · [快照归档](https://github.com/liguozheng-ac/liguozheng-ac/tree/main/snapshots)
 <!-- PROJECT-ACTIVITY:END -->
