@@ -27,7 +27,7 @@ These are prototypes and research-oriented tools. Each repository documents its 
 ### Project activity
 
 <!-- PROJECT-ACTIVITY:START -->
-Snapshot captured **2026-10-29 15:45** (Asia/Shanghai).
+Snapshot captured **2026-10-30 18:04** (Asia/Shanghai).
 
 | Project | Latest commit date | Commit |
 | --- | --- | --- |
@@ -35,5 +35,5 @@ Snapshot captured **2026-10-29 15:45** (Asia/Shanghai).
 | [J-SpeechOps](https://github.com/liguozheng-ac/j-speechops) | 2026-10-16 | [`b9dc139`](https://github.com/liguozheng-ac/j-speechops/commit/b9dc139d535bd1232a05a6fe7b9e1f6efc4dcbd0) |
 | [Japanese Speech X-Ray](https://github.com/liguozheng-ac/japanese-speech-xray) | 2026-10-28 | [`ccc19dc`](https://github.com/liguozheng-ac/japanese-speech-xray/commit/ccc19dc9a8b49f073d3599ab0833904da5d02bcf) |
 
-[Snapshot details](https://github.com/liguozheng-ac/liguozheng-ac/blob/main/snapshots/2026/10/2026-10-29.json) · [Snapshot archive](https://github.com/liguozheng-ac/liguozheng-ac/tree/main/snapshots)
+[Snapshot details](https://github.com/liguozheng-ac/liguozheng-ac/blob/main/snapshots/2026/10/2026-10-30.json) · [Snapshot archive](https://github.com/liguozheng-ac/liguozheng-ac/tree/main/snapshots)
 <!-- PROJECT-ACTIVITY:END -->
