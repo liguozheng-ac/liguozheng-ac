@@ -19,6 +19,7 @@ const capturedAt = new Date(snapshot.captured_at);
 if (!Number.isFinite(capturedAt.getTime())) throw new Error('Invalid snapshot timestamp');
 const capturedParts = dateParts(capturedAt);
 const selectedProjects = [
+  ['Lingbo-Desk', 'Lingbo Desk'],
   ['j-gamelqa', 'J-GameLQA'],
   ['j-speechops', 'J-SpeechOps'],
   ['japanese-speech-xray', 'Japanese Speech X-Ray'],

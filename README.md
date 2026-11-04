@@ -2,14 +2,15 @@
 
 [![English — current language](https://raw.githubusercontent.com/liguozheng-ac/liguozheng-ac/main/assets/language-en-active.svg)](https://github.com/liguozheng-ac) [![切换到简体中文](https://raw.githubusercontent.com/liguozheng-ac/liguozheng-ac/main/assets/language-zh.svg)](https://github.com/liguozheng-ac/liguozheng-ac/blob/main/README.zh-CN.md)
 
-**Chinese–Japanese Localization QA · Japanese Speech Data · Evaluation Tooling**
+**AI Agent Product Design & Development · Voice Interaction · Evaluation & Quality Tools**
 
-I build tools that make language and speech quality easier to inspect, evaluate, and review. My projects combine deterministic checks, model-assisted analysis, and explicit evidence for human decisions.
+I focus on how AI agents turn user needs into verifiable task execution. Through Codex-assisted development, I explore real-time voice interaction, background task coordination, tool permissions, and execution-result verification. I also build tools for Chinese–Japanese language and speech quality.
 
 ### Selected projects
 
 | Project | What it explores | Start here |
 | --- | --- | --- |
+| **[Lingbo Desk](https://github.com/liguozheng-ac/Lingbo-Desk)** | A Windows desktop voice agent for continuous conversation, natural interruptions, and background work, with permission checks, progress controls, and execution receipts for file, Office, and browser tasks. | [Architecture](https://github.com/liguozheng-ac/Lingbo-Desk/blob/main/docs/backend-architecture.md) · [Quick start](https://github.com/liguozheng-ac/Lingbo-Desk/blob/main/README.en.md#quick-start) |
 | **[J-GameLQA](https://github.com/liguozheng-ac/j-gamelqa)** | Chinese-to-Japanese game localization QA, combining rule checks with context-aware LLM evaluation. | [Local demo](https://github.com/liguozheng-ac/j-gamelqa/blob/main/docs/local_demo.md) · [Evaluation](https://github.com/liguozheng-ac/j-gamelqa/blob/main/docs/heldout_evaluation_results.md) |
 | **[J-SpeechOps](https://github.com/liguozheng-ac/j-speechops)** | Japanese speech data QC: generation, pronunciation evidence, human review, and release gates. | [Architecture](https://github.com/liguozheng-ac/j-speechops/blob/main/docs/architecture_overview.md) · [Example flow](https://github.com/liguozheng-ac/j-speechops/blob/main/examples/release_flow/README.md) |
 | **[Japanese Speech X-Ray](https://github.com/liguozheng-ac/japanese-speech-xray)** | Waveform, pitch, and intonation inspection, with experimental speech alignment and descriptive reference comparisons. | [Product showcase](https://github.com/liguozheng-ac/japanese-speech-xray#product-showcase) · [Reproduction guide](https://github.com/liguozheng-ac/japanese-speech-xray/blob/main/docs/REPRODUCIBILITY.md) |
@@ -22,7 +23,7 @@ These are prototypes and research-oriented tools. Each repository documents its 
 - Keep measured evidence, model predictions, and human approval separate.
 - Make experiments reproducible, preserve failure cases, and state uncertainty explicitly.
 
-**Tools used across these projects:** Python · FastAPI · Pydantic · Streamlit · Ollama / Qwen · librosa / pYIN · GitHub Actions
+**Tools used across these projects:** TypeScript · Node.js · Electron · Vue · Python · FastAPI · Pydantic · Streamlit · DeepSeek · Ollama / Qwen · librosa / pYIN · GitHub Actions
 
 ### Project activity
 
@@ -31,6 +32,7 @@ Snapshot captured **2026-11-03 18:50** (Asia/Shanghai).
 
 | Project | Latest commit date | Commit |
 | --- | --- | --- |
+| [Lingbo Desk](https://github.com/liguozheng-ac/Lingbo-Desk) | Not in this snapshot | — |
 | [J-GameLQA](https://github.com/liguozheng-ac/j-gamelqa) | Not in this snapshot | — |
 | [J-SpeechOps](https://github.com/liguozheng-ac/j-speechops) | 2026-10-16 | [`b9dc139`](https://github.com/liguozheng-ac/j-speechops/commit/b9dc139d535bd1232a05a6fe7b9e1f6efc4dcbd0) |
 | [Japanese Speech X-Ray](https://github.com/liguozheng-ac/japanese-speech-xray) | 2026-10-28 | [`ccc19dc`](https://github.com/liguozheng-ac/japanese-speech-xray/commit/ccc19dc9a8b49f073d3599ab0833904da5d02bcf) |
