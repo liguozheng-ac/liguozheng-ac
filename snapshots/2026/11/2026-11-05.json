@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-05",
+  "time_zone": "Asia/Shanghai",
+  "captured_at": "2026-11-05T14:36:42.228Z",
+  "generated_by": "Automated public GitHub repository snapshot; not a manual coding activity log.",
+  "owner": "liguozheng-ac",
+  "repositories": [
+    {
+      "repository": "liguozheng-ac/Drawio",
+      "url": "https://github.com/liguozheng-ac/Drawio",
+      "default_branch": "dev",
+      "stars": 0,
+      "forks": 0,
+      "open_issues_and_pull_requests": 0,
+      "pushed_at": "2026-10-23T17:44:10Z",
+      "latest_commit": {
+        "sha": "84487b4891cbc0f32d7e30f34cf878c87cb1f414",
+        "url": "https://github.com/liguozheng-ac/Drawio/commit/84487b4891cbc0f32d7e30f34cf878c87cb1f414",
+        "committed_at": "2026-10-23T17:44:00Z"
+      }
+    },
+    {
+      "repository": "liguozheng-ac/J-gamelqa",
+      "url": "https://github.com/liguozheng-ac/J-gamelqa",
+      "default_branch": "main",
+      "stars": 58,
+      "forks": 5,
+      "open_issues_and_pull_requests": 0,
+      "pushed_at": "2026-10-16T12:38:53Z",
+      "latest_commit": {
+        "sha": "89a53c597ed07aafab548cc8de76b7021b906f6b",
+        "url": "https://github.com/liguozheng-ac/J-gamelqa/commit/89a53c597ed07aafab548cc8de76b7021b906f6b",
+        "committed_at": "2026-10-16T12:38:33Z"
+      }
+    },
+    {
+      "repository": "liguozheng-ac/j-speechops",
+      "url": "https://github.com/liguozheng-ac/j-speechops",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "open_issues_and_pull_requests": 0,
+      "pushed_at": "2026-10-16T13:33:41Z",
+      "latest_commit": {
+        "sha": "b9dc139d535bd1232a05a6fe7b9e1f6efc4dcbd0",
+        "url": "https://github.com/liguozheng-ac/j-speechops/commit/b9dc139d535bd1232a05a6fe7b9e1f6efc4dcbd0",
+        "committed_at": "2026-10-16T13:33:29Z"
+      }
+    },
+    {
+      "repository": "liguozheng-ac/japanese-speech-xray",
+      "url": "https://github.com/liguozheng-ac/japanese-speech-xray",
+      "default_branch": "main",
+      "stars": 177,
+      "forks": 12,
+      "open_issues_and_pull_requests": 0,
+      "pushed_at": "2026-10-28T11:32:11Z",
+      "latest_commit": {
+        "sha": "ccc19dc9a8b49f073d3599ab0833904da5d02bcf",
+        "url": "https://github.com/liguozheng-ac/japanese-speech-xray/commit/ccc19dc9a8b49f073d3599ab0833904da5d02bcf",
+        "committed_at": "2026-10-28T11:31:52Z"
+      }
+    },
+    {
+      "repository": "liguozheng-ac/Lingbo-Desk",
+      "url": "https://github.com/liguozheng-ac/Lingbo-Desk",
+      "default_branch": "main",
+      "stars": 47,
+      "forks": 0,
+      "open_issues_and_pull_requests": 0,
+      "pushed_at": "2026-11-03T17:53:44Z",
+      "latest_commit": {
+        "sha": "c807dfdf2f551f649e333a4e91af0e6548dab40f",
+        "url": "https://github.com/liguozheng-ac/Lingbo-Desk/commit/c807dfdf2f551f649e333a4e91af0e6548dab40f",
+        "committed_at": "2026-11-03T17:53:38Z"
+      }
+    },
+    {
+      "repository": "liguozheng-ac/OrbitBuy",
+      "url": "https://github.com/liguozheng-ac/OrbitBuy",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "open_issues_and_pull_requests": 0,
+      "pushed_at": "2026-11-01T17:06:44Z",
+      "latest_commit": {
+        "sha": "ca0a4777aed63d266b4bc0097f81b2af3307e9fd",
+        "url": "https://github.com/liguozheng-ac/OrbitBuy/commit/ca0a4777aed63d266b4bc0097f81b2af3307e9fd",
+        "committed_at": "2026-11-01T17:06:33Z"
+      }
+    },
+    {
+      "repository": "liguozheng-ac/REA",
+      "url": "https://github.com/liguozheng-ac/REA",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "open_issues_and_pull_requests": 0,
+      "pushed_at": "2026-10-22T04:46:52Z",
+      "latest_commit": {
+        "sha": "bd5d189a8f8aeea669bcb93e68af6c046b567939",
+        "url": "https://github.com/liguozheng-ac/REA/commit/bd5d189a8f8aeea669bcb93e68af6c046b567939",
+        "committed_at": "2026-10-22T04:20:02Z"
+      }
+    }
+  ]
+}

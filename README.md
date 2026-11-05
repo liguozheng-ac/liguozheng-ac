@@ -28,14 +28,14 @@ These are prototypes and research-oriented tools. Each repository documents its 
 ### Project activity
 
 <!-- PROJECT-ACTIVITY:START -->
-Snapshot captured **2026-11-03 18:50** (Asia/Shanghai).
+Snapshot captured **2026-11-05 22:36** (Asia/Shanghai).
 
 | Project | Latest commit date | Commit |
 | --- | --- | --- |
-| [Lingbo Desk](https://github.com/liguozheng-ac/Lingbo-Desk) | Not in this snapshot | — |
+| [Lingbo Desk](https://github.com/liguozheng-ac/Lingbo-Desk) | 2026-11-04 | [`c807dfd`](https://github.com/liguozheng-ac/Lingbo-Desk/commit/c807dfdf2f551f649e333a4e91af0e6548dab40f) |
 | [J-GameLQA](https://github.com/liguozheng-ac/j-gamelqa) | Not in this snapshot | — |
 | [J-SpeechOps](https://github.com/liguozheng-ac/j-speechops) | 2026-10-16 | [`b9dc139`](https://github.com/liguozheng-ac/j-speechops/commit/b9dc139d535bd1232a05a6fe7b9e1f6efc4dcbd0) |
 | [Japanese Speech X-Ray](https://github.com/liguozheng-ac/japanese-speech-xray) | 2026-10-28 | [`ccc19dc`](https://github.com/liguozheng-ac/japanese-speech-xray/commit/ccc19dc9a8b49f073d3599ab0833904da5d02bcf) |
 
-[Snapshot details](https://github.com/liguozheng-ac/liguozheng-ac/blob/main/snapshots/2026/11/2026-11-03.json) · [Snapshot archive](https://github.com/liguozheng-ac/liguozheng-ac/tree/main/snapshots)
+[Snapshot details](https://github.com/liguozheng-ac/liguozheng-ac/blob/main/snapshots/2026/11/2026-11-05.json) · [Snapshot archive](https://github.com/liguozheng-ac/liguozheng-ac/tree/main/snapshots)
 <!-- PROJECT-ACTIVITY:END -->

@@ -28,14 +28,14 @@
 ### 项目动态
 
 <!-- PROJECT-ACTIVITY:START -->
-快照采集时间 **2026-11-03 18:50** (Asia/Shanghai).
+快照采集时间 **2026-11-05 22:36** (Asia/Shanghai).
 
 | 项目 | 最近提交日期 | 提交记录 |
 | --- | --- | --- |
-| [Lingbo Desk](https://github.com/liguozheng-ac/Lingbo-Desk) | 本次快照未收录 | — |
+| [Lingbo Desk](https://github.com/liguozheng-ac/Lingbo-Desk) | 2026-11-04 | [`c807dfd`](https://github.com/liguozheng-ac/Lingbo-Desk/commit/c807dfdf2f551f649e333a4e91af0e6548dab40f) |
 | [J-GameLQA](https://github.com/liguozheng-ac/j-gamelqa) | 本次快照未收录 | — |
 | [J-SpeechOps](https://github.com/liguozheng-ac/j-speechops) | 2026-10-16 | [`b9dc139`](https://github.com/liguozheng-ac/j-speechops/commit/b9dc139d535bd1232a05a6fe7b9e1f6efc4dcbd0) |
 | [Japanese Speech X-Ray](https://github.com/liguozheng-ac/japanese-speech-xray) | 2026-10-28 | [`ccc19dc`](https://github.com/liguozheng-ac/japanese-speech-xray/commit/ccc19dc9a8b49f073d3599ab0833904da5d02bcf) |
 
-[快照详情](https://github.com/liguozheng-ac/liguozheng-ac/blob/main/snapshots/2026/11/2026-11-03.json) · [快照归档](https://github.com/liguozheng-ac/liguozheng-ac/tree/main/snapshots)
+[快照详情](https://github.com/liguozheng-ac/liguozheng-ac/blob/main/snapshots/2026/11/2026-11-05.json) · [快照归档](https://github.com/liguozheng-ac/liguozheng-ac/tree/main/snapshots)
 <!-- PROJECT-ACTIVITY:END -->
